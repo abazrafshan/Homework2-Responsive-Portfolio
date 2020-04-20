@@ -1,24 +1,72 @@
 body {
-    /* position: relative; */
     min-height: 100%;
     background: red;
 }
-/* html {
-    min-height: 100%;
-} */
+
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: grey;
-    font: white;
+    background-color: darkgrey;
     height: 60px;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.margin {
+    margin:20px;
 }
 
+.padding {
+    padding: 20px;
+}
+
+.textcolor {
+    color: lightseagreen;
+}
+
+.footercontent {
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.block {
+    background: lightgray;
+    margin-bottom: 0px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #eee;
+    background: lightseagreen;
+    font-weight: bold;
+}
+
+nav {
+    background: lightgray;
+}
+
+a {
+    background: lime;
+    padding: 20px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    background: lightseagreen;
+}
+
+.thumbnail {
+
+    margin: 20px auto;
+    /* width: 350px;
+    height: 350px; */
+}

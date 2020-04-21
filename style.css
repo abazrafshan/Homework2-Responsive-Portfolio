@@ -1,3 +1,20 @@
+.margin {
+    margin:20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.textcolor {
+    color: lightseagreen;
+}
+
+/* Sticky footer */
 .footer {
     position: fixed;
     bottom: 0;
@@ -7,18 +24,7 @@
     height: 60px;
 }
 
-.margin {
-    margin:20px;
-}
-
-.padding {
-    padding: 20px;
-}
-
-.textcolor {
-    color: lightseagreen;
-}
-
+/* Styling for footer content */
 .footercontent {
     padding: 20px;
     color: white;
@@ -30,6 +36,7 @@
     margin-bottom: 0px;
 }
 
+/* Styling for site logo */
 #logo {
     font-size: 24px;
     color: #eee;
@@ -37,19 +44,16 @@
     font-weight: bold;
 }
 
+/* Background color for navigation bar */
 nav {
     background: lightgray;
 }
 
-a {
-    background: lime;
-    padding: 20px;
-}
-
+/* Styles and positions header banners for images in portfolio.html */
 .banner {
     position: absolute;
     bottom: 0px;
-    width: 93%;
+    width: 92%;
     padding: 20px 0px;
     margin: 5% 5% 0% 5% auto;
     font-weight: 300;
@@ -59,17 +63,24 @@ a {
     background: lightseagreen;
 }
 
+/* Adds space between each image in portfolio */
 .thumbnail {
     margin: 5% auto;
 }
 
-.margin-right {
-    margin-right: 10px;
+
+
+
+/* Media queries to enhance responsiveness of banner width in portfolio */
+@media screen and (max-width: 980px) {
+    .banner {
+        width: 93%;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 640px) {
     .banner {
-        width: 92%;
+        width: 88%;
     }
 }
 

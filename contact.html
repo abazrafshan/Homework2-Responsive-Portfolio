@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <!-- Responsive navigation bar, directs user to About Me, Portfolio, or Contact page -->
   <nav class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand" href="index.html" id="logo">Arash Bazrafshan</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,6 +17,7 @@
       </button>
       <span class="navbar-text">
         <ul class="navbar-nav mr-auto">
+          <!-- List will redirect user to each of the three pages of this web site -->
           <li class="nav-item">
             <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
           </li>
@@ -28,34 +30,38 @@
         </ul>
       </span>
     </nav>
-
+    <!-- Container for contact form, floats left to align with logo on left-sdie of screen -->
     <div class="container float-left margin">
-
         <div class="row">
             <div class="col-md-8">
                 <div class="block padding">
                     <h3 class="textcolor block-header">Contact</h3>
                     <hr/>
+                    <!-- User can input a name in this box -->
                     <div class="form-group">
                       <label for="formGroupExampleInput">Name</label>
                       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name">
                     </div>
+                    <!-- User can input an email address in this box -->
                     <div class="form-group">
                       <label for="email">Email</label>
                       <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email@address.com">
                     </div>
+                    <!-- User can input a message in this box -->
                     <div class="form-group">
                         <label for="msg">Message</label>
                         <div >
                             <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
                         </div>
                     </div>
+                    <!-- User can submit contact info by pressing the button -->
                     <button type="submit" class="btn btn-primary">Submit</button>
 
                 </div>
             </div>
         </div>
     </div>
+    <!-- Sticky footer -->
     <div>
         <footer class="footer">
           <div >

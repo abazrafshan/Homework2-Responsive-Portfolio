@@ -66,3 +66,21 @@ a {
 .margin-right {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 420px) {
+    .banner {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .banner {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .banner {
+        width: 90%;
+    }
+}

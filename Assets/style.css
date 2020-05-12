@@ -66,6 +66,8 @@ nav {
 /* Adds space between each image in portfolio */
 .thumbnail {
     margin: 5% auto;
+    width:92%;
+    height: fit-content;
 }
 
 

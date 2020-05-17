@@ -70,7 +70,9 @@ nav {
     height: fit-content;
 }
 
-
+.pageBackground {
+    background: lightblue;
+}
 
 
 /* Media queries to enhance responsiveness of banner width in portfolio */
